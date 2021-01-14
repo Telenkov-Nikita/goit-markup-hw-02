@@ -10,6 +10,9 @@
   color: black;
   letter-spacing: 3%;
 }
+
+/* =========== HEADER ============= */
+
 header {
   justify-content: space-between;
 }
@@ -32,6 +35,9 @@ a {
 li > a:hover {
   color: var(--accent-color);
 }
+
+/* =========== END HEADER ============= */
+
 .firstBlock {
   background-color: #2f303a;
   position: absolute;
