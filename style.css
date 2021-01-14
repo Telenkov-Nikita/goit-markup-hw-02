@@ -1,3 +1,6 @@
+:root {
+  --accent-color: #2196f3;
+}
 * {
   padding: 0;
   margin: 0;
@@ -21,13 +24,13 @@ header {
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 a {
   text-decoration: none;
 }
 li > a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .firstBlock {
   background-color: #2f303a;
@@ -45,7 +48,7 @@ h1 {
   text-transform: uppercase;
 }
 .btn {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   position: absolute;
   width: 200px;
   height: 50px;
