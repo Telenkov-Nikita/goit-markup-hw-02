@@ -9,12 +9,14 @@
   font-weight: 500;
   color: #212121;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* =========== HEADER ============= */
 
-header {
-  justify-content: space-between;
+.active {
+  color: var(--accent-color);
 }
 .logo {
   font-family: raleway;
@@ -50,7 +52,6 @@ h1 {
   line-height: 1.363;
   font-weight: 900;
   font-size: 44px;
-
   text-align: center;
   text-transform: uppercase;
 }
@@ -83,13 +84,14 @@ h2 {
   width: 270px;
   height: 101px;
 }
-li > h3 {
+
+h3 {
   font-weight: 700;
   font-size: 14px;
-
   text-transform: uppercase;
   line-height: 1.172;
 }
+
 li > p {
   font-weight: 400;
   font-size: 14px;
@@ -102,7 +104,7 @@ li > p {
   left: 215px;
   top: 969px;
 }
-.whatWeDo > ul {
+.whatWeDo-item {
   text-decoration: none;
 }
 .team {
@@ -113,9 +115,7 @@ li > p {
   top: 1449px;
   background: #f5f4fa;
 }
-.team > ul {
-  text-decoration: none;
-}
+
 .team-list-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -127,4 +127,7 @@ footer {
   height: 252px;
   left: 0px;
   top: 2097px;
+}
+.portfolio-item {
+  border: 1px solid #eeeeee;
 }
