@@ -1,5 +1,10 @@
 :root {
   --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --bg-color: #f5f4fa;
+  --block-bg-color: #2f303a;
+  --light-text-color: #757575;
+  --text-color: #212121;
 }
 * {
   padding: 0;
@@ -7,7 +12,7 @@
   font-family: roboto;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--text-color);
   letter-spacing: 0.03em;
   text-decoration: none;
   list-style: none;
@@ -41,13 +46,10 @@ li > a:hover {
 /* =========== END HEADER ============= */
 
 .firstBlock {
-  background-color: #2f303a;
-  position: absolute;
-  width: 100%;
-  height: 600px;
+  background-color: var(--block-bg-color);
 }
 h1 {
-  color: white;
+  color: var(--white-color);
   font-size: 44px;
   line-height: 1.363;
   font-weight: 900;
@@ -57,77 +59,77 @@ h1 {
 }
 .btn {
   background-color: var(--accent-color);
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   border-radius: 4px;
   border: solid transparent 2px;
-  color: white;
+  color: var(--white-color);
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
 }
-.advantages {
-  position: absolute;
-  left: 215px;
-  top: 774px;
-}
-.advantages > ul {
-  list-style: none;
-  height: 101px;
-}
+
 .advantages > li {
   width: 270px;
-  height: 101px;
 }
 
 h3 {
   font-weight: 700;
   font-size: 14px;
-  text-transform: uppercase;
   line-height: 1.172;
+}
+.advantages-h3 {
+  text-transform: uppercase;
 }
 
 li > p {
   font-weight: 400;
   font-size: 14px;
-  color: #757575;
+  color: var(--light-text-color);
   line-height: 1.714;
 }
-.whatWeDo {
-  position: absolute;
-  height: 386px;
-  left: 215px;
-  top: 969px;
-}
+
 .whatWeDo-item {
   text-decoration: none;
 }
 .team {
-  position: absolute;
-  width: 100%;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-  background: #f5f4fa;
+  background: var(--bg-color);
 }
 
 .team-list-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033;
   border-radius: 0px 0px 4px 4px;
 }
-footer {
-  position: absolute;
-  width: 100%;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-}
+
 .portfolio-item {
   border: 1px solid #eeeeee;
+}
+.portfolio-item-p {
+  color: var(--light-text-color);
+}
+.list-btn-item {
+  background: var(--bg-color);
+  border-radius: 4px;
+}
+.list-btn-item:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
+    0px 2px 2px #0000001f;
+  border-radius: 4px;
+}
+
+/* ============== FOOTER =================== */
+
+footer {
+  background: var(--block-bg-color);
+}
+address a {
+  opacity: 60%;
+}
+.footer-item {
+  font-size: 14px;
+  font-style: normal;
+  color: var(--white-color);
 }
