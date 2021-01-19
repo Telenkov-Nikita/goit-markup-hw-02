@@ -42,6 +42,9 @@ a {
 li > a:hover {
   color: var(--accent-color);
 }
+.header-contact {
+  color: var(--light-text-color);
+}
 
 /* =========== END HEADER ============= */
 
@@ -76,10 +79,11 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.172;
 }
 .advantages-h3 {
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -98,8 +102,8 @@ li > p {
 }
 
 .team-list-item {
-  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
-    0px 2px 1px #00000033;
+  /* box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033; */
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -123,8 +127,8 @@ li > p {
 .list-btn-item:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
-  box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
-    0px 2px 2px #0000001f;
+  /* box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
+    0px 2px 2px #0000001f; */
   border-radius: 4px;
 }
 
@@ -134,6 +138,7 @@ footer {
   background: var(--block-bg-color);
 }
 address a {
+  color: var(--light-text-color);
   opacity: 60%;
 }
 .footer-item {
