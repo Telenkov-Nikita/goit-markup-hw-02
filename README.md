@@ -1,1 +1,1 @@
-https://telenkov-nikita.github.io/goit-markup-hw-01/
+https://telenkov-nikita.github.io/goit-markup-hw-02/
