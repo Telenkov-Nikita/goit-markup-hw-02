@@ -16,7 +16,12 @@ body {
 
 /* =========== HEADER ============= */
 
-ul {
+ul,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -50,6 +55,9 @@ li > a:focus {
 
 /* =========== END HEADER ============= */
 
+img {
+  display: block;
+}
 .firstBlock {
   background-color: var(--block-bg-color);
 }
